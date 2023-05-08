@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+int a,k,g,count;
+while(scanf("%d",&a)!=EOF)
+{
+ int k;
+ for(k=1;k<a;k++)
+ if(k%7!=0)       
+ printf("%d ",k);
+ printf("\n");                                        
+    } 
+                 
+}
+
+#include <stdio.h>
+
+int n;
+
+int main()
+{
+    while (scanf(" %d", &n) == 1 && n)
+    {
+        for (int i = 1; i < n; i++)
+        {
+            if (i % 7)
+                printf("%d ", i);
+        }
+        putchar('\n');
+    }
+    return 0;
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+	int num,sun=0,cou=0;
+	float aver;
+	scanf("%d",&num);
+	while(num!=0)
+	{
+		sun = sun + num;
+		cou = cou + 1;
+		scanf("%d",&num); 
+	}
+	aver = (float) sun / cou;
+	printf("%f\n",aver);
+	return 0;
+ } 

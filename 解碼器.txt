@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+char s[10000], * c;
+
+int main()
+{
+    while (gets(s) != NULL)
+    {
+        c = s - 1;
+        while (*(++c))
+            *c -= 7;//c=c-7 算術指派，a -= b 等於 a = a- b
+        puts(s);
+    }
+    return 0;
+}

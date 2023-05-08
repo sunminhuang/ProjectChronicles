@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std; 
+int main() {     
+  int a,b;
+  while (cin >> a){
+    cin >> b;
+    if (   ___________________   ) {
+      cout << "普通"<<endl;           
+    }else if (   ___________________    ) {
+      cout << "吉"<<endl;   
+    }else{
+      cout << "大吉"<<endl;    
+    }
+  }
+
+#include <stdio.h>
+int main(voud){
+    int m,d;
+    while(~scanf("%d%d",&m,&d)){
+        switch((m*2+d)%3){
+            case 0:
+               printf("普通\n");
+               break;
+           case 1:
+               printf("吉\n");
+               break;
+            case 2:
+               printf("大吉\n");
+               break;
+        }
+     };
+     return 0;
+}

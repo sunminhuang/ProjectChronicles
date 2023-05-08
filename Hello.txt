@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+main()
+{
+      char  name[80];   
+     scanf( "%s" ,name );
+     printf(  "hello, %s ",name );
+    
+      return   0;
+}

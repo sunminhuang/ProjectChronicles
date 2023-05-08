@@ -1,0 +1,26 @@
+#include <stdio.h>
+int fib(int n)
+{
+	if(n==0)
+	{
+		return n;
+	}
+	if(n==1)
+	{
+		return n;
+	}
+	else 
+	{
+		return fib(n-1)+fib(n-2);
+	}
+}
+int main()
+{
+	for(int i=2;i<=10;i++)
+	{
+		int a;
+		a = fib(i);
+		printf("%d,",a);
+	}
+	return 0;
+ } 
